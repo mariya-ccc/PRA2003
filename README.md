@@ -10,7 +10,7 @@ The aim is to investigate how frequently different molecular species occur, whet
 
 # Installation 
 
-- Python version 3.14 
+- Python version 3.14 used
 - Libraries needed:
          - math
          - Numpy
@@ -22,10 +22,19 @@ The aim is to investigate how frequently different molecular species occur, whet
 
 Q1. What are the average counts of each molecular species and their statistical uncertainties?
 
+-> How frequently does each molecule appear across simulations 
+
 Q2. Is there any asymmetry between the normal and variant molecules?
+-> Compare production counts of each normal molecule 
 
 Q3. Is there any asymmetry as a function of their momentum?
 
+
+
+# Dataset
+
+
+The following 12 molecules were analysed: 
 
 Molecule IDs:
 
@@ -44,6 +53,14 @@ Molecule IDs:
 | -3312 | Ionised ethylene (C₂H₃⁻) |
 | 3334 | Ozone (O₃) |
 | -3334 | Superoxide anion (O₂⁻) |
+
+Table 1.0 
+
+
+# Methodology and Results 
+
+
+
 
 
 
