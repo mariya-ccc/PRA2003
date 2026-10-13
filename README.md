@@ -66,7 +66,7 @@ Molecule IDs:
 | 3334 | Ozone (O₃) |
 | -3334 | Superoxide anion (O₂⁻) |
 
-Table 1.0 
+## Table 1.0 
 
 
 
@@ -82,6 +82,26 @@ This gave 10 average counts for each molecular species, one from each subsample.
 
 
 The statistical uncertainty was determined from the sample standard deviation of the 10 subsample averages, using stats.tstd() from SciPy. This represents the spread of the results between the different subsamples.
+
+
+Average counts and statistical uncertainties of molecular species:
+
+| Molecule ID | Average count | Statistical uncertainty |
+|---|---:|---:|
+| 211 | 19.9495079355902 | 0.032746188172178115 |
+| -211 | 19.917211221411552 | 0.0318733428247216 |
+| 321 | 2.5091478051179377 | 0.004773688071794738 |
+| -321 | 2.5034568047201455 | 0.0055036861832087145 |
+| 2212 | 1.208034096197201 | 0.00189633025524925 |
+| -2212 | 1.1841609547697451 | 0.0024121635255373386 |
+| 3122 | 0.2765985136833252 | 0.0010743980330262981 |
+| -3122 | 0.27169595103327354 | 0.0009853787552934238 |
+| 3312 | 0.03944115982852291 | 0.00028367599331215285 |
+| -3312 | 0.039000492205163585 | 0.00040248313321916235 |
+| 3334 | 0.0011870957794868897 | 4.16761469955214e-05 |
+| -3334 | 0.001151582516474148 | 5.079386816876298e-05 |
+
+### Table 2.0
 
 
 
@@ -109,7 +129,7 @@ The absolute value is used because significance measures the magnitude of the di
 The measured asymmetries, statistical uncertainties, and significances for the six molecular pairs are presented below (Table 2.0)
 
 
-### Table 2.0: Asymmetry between normal and variant molecules
+Asymmetry between normal and variant molecules
 
 | Molecule pair | Average difference | Uncertainty | Significance |
 |---|---:|---:|---:|
@@ -119,6 +139,8 @@ The measured asymmetries, statistical uncertainties, and significances for the s
 | 3122 vs -3122 | 0.0049025626500516645 | 0.0005831593400970446 | 8.406900675269679σ |
 | 3312 vs -3312 | 0.00044066762335932374 | 0.00048793089398757654 | 0.9031353185243151σ |
 | 3334 vs -3334 | 3.551326301274172e-05 | 6.854374209958842e-05 | 0.518110945287228σ |
+
+### Table 3.0
 
 
 Question 3: Is there any asymmetry as a function of their momentum?
@@ -141,6 +163,9 @@ For each subsample, the number of normal and variant molecules in each momentum 
 The statistical uncertainty was estimated using the sample standard deviation of these 10 differences. This represents the spread of the measured differences between the subsamples.
 
 Finally, the mean difference against momentum for each of the six molecular pairs, including error bars representing their statistical uncertainties was plotted. This gave 6 resulting graphs, one for each molecular pair (See all png files in repository). 
+
+
+The 
 
 
 
