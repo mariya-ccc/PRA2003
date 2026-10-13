@@ -10,7 +10,7 @@ The aim is to investigate how frequently different molecular species occur, whet
 
 # Installation 
 
-- Python version 3.14 used
+- Python version 3.14
 - Libraries needed:
          - math
          - Numpy
@@ -163,6 +163,17 @@ For each subsample, the number of normal and variant molecules in each momentum 
 The statistical uncertainty was estimated using the sample standard deviation of these 10 differences. This represents the spread of the measured differences between the subsamples.
 
 Finally, the mean difference against momentum for each of the six molecular pairs, including error bars representing their statistical uncertainties was plotted. This gave 6 resulting graphs, one for each molecular pair (See all png files in repository). 
+
+
+211 vs −211: Significant asymmetry, as the differences are mostly positive and particularly large at lower momentum values, with several error bars not overlapping zero.
+321 vs −321: Insignificant asymmetry, as most error bars overlap zero and the differences show no clear trend.
+2212 vs −2212: Significant asymmetry, as the differences are consistently positive and generally decrease with increasing momentum.
+3122 vs −3122: Significant asymmetry, particularly at lower momentum values, where several error bars do not overlap zero.
+3312 vs −3312: Insignificant asymmetry, as the differences are small compared with their uncertainties and most error bars overlap zero.
+3334 vs −3334: Insignificant asymmetry, as the differences fluctuate around zero and all error bars overlap zero.
+
+
+
 
 
 
