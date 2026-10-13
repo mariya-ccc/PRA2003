@@ -151,8 +151,6 @@ To investigate whether the asymmetry between normal and variant molecules depend
 
 First, the magnitude of the momentum of each molecule was calculated using its three momentum components:
 
-First, the magnitude of the momentum of each molecule was calculated using its three momentum components:
-
 $$
 P = \sqrt{p_x^2 + p_y^2 + p_z^2}
 $$
