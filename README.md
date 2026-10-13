@@ -83,7 +83,7 @@ This gave 10 average counts for each molecular species, one from each subsample.
 The statistical uncertainty was determined from the sample standard deviation of the 10 subsample averages, using stats.tstd() from SciPy.
 
 
-| Molecule ID | Average count per non-empty event | Statistical uncertainty |
+| Molecule ID | Average count | Statistical uncertainty |
 |---|---:|---:|
 | 211 | 19.949508 | 0.032746 |
 | -211 | 19.917211 | 0.031873 |
