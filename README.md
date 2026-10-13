@@ -165,7 +165,6 @@ The statistical uncertainty was estimated using the sample standard deviation of
 Finally, the mean difference against momentum for each of the six molecular pairs, including error bars representing their statistical uncertainties was plotted. This gave 6 resulting graphs, one for each molecular pair (See all png files in repository). 
 
 
-### Results and Interpretation
 
 **211 vs −211:** Significant asymmetry, as the differences are mostly positive and particularly large at lower momentum values, with several error bars not overlapping zero.
 
