@@ -81,7 +81,7 @@ For each of the 10 subsamples, the total number of times each molecular species 
 This gave 10 average counts for each molecular species, one from each subsample. The weighted mean of these 10 averages to obtain the final average count. A weighted mean was used because the subsamples did not all contain the same number of events, so subsamples with more events contributed more to the final average. 
 
 
-The statistical uncertainty was determined from the sample standard deviation of the 10 subsample averages, using stats.tstd() from SciPy. This represents the spread of the results between the different subsamples.
+The statistical uncertainty was determined from the sample standard deviation of the 10 subsample averages, using stats.tstd() from SciPy. This represents the spread of the results between the different subsamples. See Table 2.0. 
 
 
 Average counts and statistical uncertainties of molecular species:
