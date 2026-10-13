@@ -70,9 +70,34 @@ Table 1.0
 
 
 
-
-
 # Methodology and Results 
+
+
+QUESTION 1:  What are the average counts of each molecular species and their statistical uncertainties?
+
+
+For each of the 10 subsamples, the total number of times each molecular species occurred was counted. The average count was then calculated by dividing the total count of each molecular species by the number of non-empty events in that subsample.
+
+This gave 10 average counts for each molecular species, one from each subsample. The weighted mean of these 10 averages to obtain the final average count. A weighted mean was used because the subsamples did not all contain the same number of events, so subsamples with more events contributed more to the final average.
+
+The statistical uncertainty was determined from the sample standard deviation of the 10 subsample averages, using stats.tstd() from SciPy.
+
+
+| Molecule ID | Average count per non-empty event | Statistical uncertainty |
+|---|---:|---:|
+| 211 | 19.949508 | 0.032746 |
+| -211 | 19.917211 | 0.031873 |
+| 321 | 2.509148 | 0.004774 |
+| -321 | 2.503457 | 0.005504 |
+| 2212 | 1.208034 | 0.001896 |
+| -2212 | 1.184161 | 0.002412 |
+| 3122 | 0.276599 | 0.001074 |
+| -3122 | 0.271696 | 0.000985 |
+| 3312 | 0.039441 | 0.000284 |
+| -3312 | 0.039000 | 0.000402 |
+| 3334 | 0.001187 | 0.000042 |
+| -3334 | 0.001152 | 0.000051 |
+
 
 
 
