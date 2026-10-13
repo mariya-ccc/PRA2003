@@ -78,9 +78,10 @@ QUESTION 1:  What are the average counts of each molecular species and their sta
 
 For each of the 10 subsamples, the total number of times each molecular species occurred was counted. The average count was then calculated by dividing the total count of each molecular species by the number of non-empty events in that subsample.
 
-This gave 10 average counts for each molecular species, one from each subsample. The weighted mean of these 10 averages to obtain the final average count. A weighted mean was used because the subsamples did not all contain the same number of events, so subsamples with more events contributed more to the final average.
+This gave 10 average counts for each molecular species, one from each subsample. The weighted mean of these 10 averages to obtain the final average count. A weighted mean was used because the subsamples did not all contain the same number of events, so subsamples with more events contributed more to the final average. 
 
-The statistical uncertainty was determined from the sample standard deviation of the 10 subsample averages, using stats.tstd() from SciPy.
+
+The statistical uncertainty was determined from the sample standard deviation of the 10 subsample averages, using stats.tstd() from SciPy. This represents the spread of the results between the different subsamples.
 
 
 | Molecule ID | Average count | Statistical uncertainty |
@@ -100,6 +101,63 @@ The statistical uncertainty was determined from the sample standard deviation of
 
 
 
+QUESTION 2 : Is there any asymmetry between the normal and the
+variant molecule?
+
+
+A comparison of each normal molecule with its corresponding variant was made. For each of the 10 subsamples, the difference between the average counts of each molecular pair was calculated.
+
+The difference was calculated as the average count of the normal molecule minus the average count of its variant.
+
+The weighted mean of these 10 differences was then calculated. This gives the final measured asymmetry between the normal and variant molecule.
+
+A positive diffierence means that, on average, the normal molecule occurred more often than its variant. The standard deviation of the 10 differences was used as the statistical uncertainty.
+
+How do we know if the asymmetry is meaningful? :
+
+I compared the difference with its uncertainty using:
+
+significance = |D| / σ_D
+
+
+The absolute value is used because significance measures the magnitude of the difference relative to zero, regardless of whether the difference is positive or negative. A difference of zero corresponds to no measured asymmetry.
+
+The measured asymmetries, statistical uncertainties, and significances for the six molecular pairs are presented below (Table 2.0)
+
+
+Asymmetry between normal and variant molecules
+
+Molecule pair     Average difference       Uncertainty              Significance
+211 vs -211       0.03229671417864928      0.0045187006346247265    7.1473453964120575σ
+321 vs -321       0.005691000397791801     0.003293674238156648     1.7278577012451757σ
+2212 vs -2212     0.023873141427455603     0.002372770396324402     10.06129436899452σ
+3122 vs -3122     0.0049025626500516645    0.0005831593400970446    8.406900675269679σ
+3312 vs -3312     0.00044066762335932374   0.00048793089398757654   0.9031353185243151σ
+3334 vs -3334     3.551326301274172e-05    6.854374209958842e-05    0.518110945287228σ
+
+Table 2.0 
+
+
+Question 3: Is there any asymmetry as a function of their momentum?
+
+
+To investigate whether the asymmetry between normal and variant molecules depends on momentum, the momentum of each molecular species was analysed across the 10 subsamples.
+
+First, the magnitude of the momentum of each molecule was calculated using its three momentum components:
+
+\[
+\boxed{P=\sqrt{p_x^2+p_y^2+p_z^2}}
+\]
+
+where \(p_x\), \(p_y\), and \(p_z\) are the momentum components in the x, y, and z directions.
+The momentum values were then divided into 20 bins, ranging from 0 to 20, with a bin width of 1.
+
+The momentum values were then divided into 20 bins, ranging from 0 to 20, with a bin width of 1.
+For each subsample, the number of normal and variant molecules in each momentum bin were counted. The difference in each momentum bin was calculated by subtracting the number of variant molecules from the number of normal molecules in that bin. This gave 10 differences for each momentum bin, one from each subsample.
+
+The statistical uncertainty was estimated using the sample standard deviation of these 10 differences. This represents the spread of the measured differences between the subsamples.
+
+Finally, the mean difference against momentum for each of the six molecular pairs, including error bars representing their statistical uncertainties was plotted. This gave 6 resulting graphs, one for each molecular pair (See all png files in repository). 
 
 
 
