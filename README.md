@@ -157,7 +157,7 @@ First, the magnitude of the momentum of each molecule was calculated using its t
 where \(p_x\), \(p_y\), and \(p_z\) are the momentum components in the x, y, and z directions.
 The momentum values were then divided into 20 bins, ranging from 0 to 20, with a bin width of 1.
 
-The momentum values were then divided into 20 bins, ranging from 0 to 20, with a bin width of 1.
+
 For each subsample, the number of normal and variant molecules in each momentum bin were counted. The difference in each momentum bin was calculated by subtracting the number of variant molecules from the number of normal molecules in that bin. This gave 10 differences for each momentum bin, one from each subsample.
 
 The statistical uncertainty was estimated using the sample standard deviation of these 10 differences. This represents the spread of the measured differences between the subsamples.
