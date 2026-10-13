@@ -126,7 +126,7 @@ significance = |D| / σ_D
 
 The absolute value is used because significance measures the magnitude of the difference relative to zero, regardless of whether the difference is positive or negative. A difference of zero corresponds to no measured asymmetry.
 
-The measured asymmetries, statistical uncertainties, and significances for the six molecular pairs are presented below (Table 2.0)
+The measured asymmetries, statistical uncertainties, and significances for the six molecular pairs are presented below (Table 3.0)
 
 
 Asymmetry between normal and variant molecules
