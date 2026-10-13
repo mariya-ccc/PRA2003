@@ -8,7 +8,7 @@ The aim is to investigate how frequently different molecular species occur, whet
 
 
 
-# Installation 
+# Installation and Usage
 
 - Python version 3.14
 - Libraries needed:
@@ -16,6 +16,7 @@ The aim is to investigate how frequently different molecular species occur, whet
          - Numpy
          - SciPy
          - Matplotlib
+- Make sure all output files are in the same directory
 
 
 # Research questions
