@@ -150,10 +150,14 @@ To investigate whether the asymmetry between normal and variant molecules depend
 
 First, the magnitude of the momentum of each molecule was calculated using its three momentum components:
 
+First, the magnitude of the momentum of each molecule was calculated using its three momentum components:
+
 $$
 P = \sqrt{p_x^2 + p_y^2 + p_z^2}
 $$
-where \(p_x\), \(p_y\), and \(p_z\) are the momentum components in the x, y, and z directions.
+
+where $p_x$, $p_y$, and $p_z$ are the momentum components in the x, y, and z directions.
+
 The momentum values were then divided into 20 bins, ranging from 0 to 20, with a bin width of 1.
 
 
