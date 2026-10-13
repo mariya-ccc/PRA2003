@@ -84,20 +84,17 @@ This gave 10 average counts for each molecular species, one from each subsample.
 The statistical uncertainty was determined from the sample standard deviation of the 10 subsample averages, using stats.tstd() from SciPy. This represents the spread of the results between the different subsamples.
 
 
-| Molecule ID | Average count | Statistical uncertainty |
-|---|---:|---:|
-| 211 | 19.949508 | 0.032746 |
-| -211 | 19.917211 | 0.031873 |
-| 321 | 2.509148 | 0.004774 |
-| -321 | 2.503457 | 0.005504 |
-| 2212 | 1.208034 | 0.001896 |
-| -2212 | 1.184161 | 0.002412 |
-| 3122 | 0.276599 | 0.001074 |
-| -3122 | 0.271696 | 0.000985 |
-| 3312 | 0.039441 | 0.000284 |
-| -3312 | 0.039000 | 0.000402 |
-| 3334 | 0.001187 | 0.000042 |
-| -3334 | 0.001152 | 0.000051 |
+
+### Table 2.0: Asymmetry between normal and variant molecules
+
+| Molecule pair | Average difference | Uncertainty | Significance |
+|---|---:|---:|---:|
+| 211 vs -211 | 0.03229671417864928 | 0.0045187006346247265 | 7.1473453964120575σ |
+| 321 vs -321 | 0.005691000397791801 | 0.003293674238156648 | 1.7278577012451757σ |
+| 2212 vs -2212 | 0.023873141427455603 | 0.002372770396324402 | 10.06129436899452σ |
+| 3122 vs -3122 | 0.0049025626500516645 | 0.0005831593400970446 | 8.406900675269679σ |
+| 3312 vs -3312 | 0.00044066762335932374 | 0.00048793089398757654 | 0.9031353185243151σ |
+| 3334 vs -3334 | 3.551326301274172e-05 | 6.854374209958842e-05 | 0.518110945287228σ |
 
 
 
