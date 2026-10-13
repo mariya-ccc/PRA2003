@@ -86,20 +86,20 @@ The statistical uncertainty was determined from the sample standard deviation of
 
 Average counts and statistical uncertainties of molecular species:
 
-| Molecule ID | Average count | Statistical uncertainty |
-|---|---:|---:|
-| 211 | 19.9495079355902 | 0.032746188172178115 |
-| -211 | 19.917211221411552 | 0.0318733428247216 |
-| 321 | 2.5091478051179377 | 0.004773688071794738 |
-| -321 | 2.5034568047201455 | 0.0055036861832087145 |
-| 2212 | 1.208034096197201 | 0.00189633025524925 |
-| -2212 | 1.1841609547697451 | 0.0024121635255373386 |
-| 3122 | 0.2765985136833252 | 0.0010743980330262981 |
-| -3122 | 0.27169595103327354 | 0.0009853787552934238 |
-| 3312 | 0.03944115982852291 | 0.00028367599331215285 |
-| -3312 | 0.039000492205163585 | 0.00040248313321916235 |
-| 3334 | 0.0011870957794868897 | 4.16761469955214e-05 |
-| -3334 | 0.001151582516474148 | 5.079386816876298e-05 |
+| Molecule ID | Average count ± Statistical uncertainty |
+|---|---:|
+| 211 | 19.9495079355902 ± 0.032746188172178115 |
+| -211 | 19.917211221411552 ± 0.0318733428247216 |
+| 321 | 2.5091478051179377 ± 0.004773688071794738 |
+| -321 | 2.5034568047201455 ± 0.0055036861832087145 |
+| 2212 | 1.208034096197201 ± 0.00189633025524925 |
+| -2212 | 1.1841609547697451 ± 0.0024121635255373386 |
+| 3122 | 0.2765985136833252 ± 0.0010743980330262981 |
+| -3122 | 0.27169595103327354 ± 0.0009853787552934238 |
+| 3312 | 0.03944115982852291 ± 0.00028367599331215285 |
+| -3312 | 0.039000492205163585 ± 0.00040248313321916235 |
+| 3334 | 0.0011870957794868897 ± 4.16761469955214e-05 |
+| -3334 | 0.001151582516474148 ± 5.079386816876298e-05 |
 
 ### Table 2.0
 
@@ -143,7 +143,7 @@ Asymmetry between normal and variant molecules
 ### Table 3.0
 
 
-Question 3: Is there any asymmetry as a function of their momentum?
+QUESTION 3: Is there any asymmetry as a function of their momentum?
 
 
 To investigate whether the asymmetry between normal and variant molecules depends on momentum, the momentum of each molecular species was analysed across the 10 subsamples.
@@ -165,7 +165,6 @@ The statistical uncertainty was estimated using the sample standard deviation of
 Finally, the mean difference against momentum for each of the six molecular pairs, including error bars representing their statistical uncertainties was plotted. This gave 6 resulting graphs, one for each molecular pair (See all png files in repository). 
 
 
-The 
 
 
 
