@@ -25,13 +25,25 @@ Q1. What are the average counts of each molecular species and their statistical 
 -> How frequently does each molecule appear across simulations 
 
 Q2. Is there any asymmetry between the normal and variant molecules?
+
 -> Compare production counts of each normal molecule 
 
 Q3. Is there any asymmetry as a function of their momentum?
 
-
+-> Whether or not the measured differences changes as the molecule`s momentum changes 
 
 # Dataset
+
+The dataset contains simulated molecular emissions from a combustion reaction.
+It consists of 10 output files, each containing approximately 500,000 simulated events, giving approximately 5 million events in total.
+Each event contains a header specifying the event ID and the number of molecules produced.
+
+Each molecule is represented by four values:
+- px: Momentum component along the x-axis.
+- py: Momentum component along the y-axis.
+- pz: Momentum component along the z-axis.
+- molecule_id: Integer identifying the molecular species.
+
 
 
 The following 12 molecules were analysed: 
@@ -55,6 +67,9 @@ Molecule IDs:
 | -3334 | Superoxide anion (O₂⁻) |
 
 Table 1.0 
+
+
+
 
 
 # Methodology and Results 
